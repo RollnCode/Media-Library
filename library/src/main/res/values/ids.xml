@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="code_async_save_media" type="id"/>
+    <item name="code_async_create_bitmap" type="id"/>
+    <item name="code_async_record_video" type="id"/>
+    <item name="code_photo_view" type="id"/>
+    <item name="code_quality_dialog" type="id"/>
+</resources>

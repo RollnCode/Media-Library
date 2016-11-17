@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="orientation">1</integer>
+    <bool name="landscape">false</bool>
+    <bool name="isTablet">false</bool>
+    <integer name="animation_duration">@android:integer/config_longAnimTime</integer>
+</resources>

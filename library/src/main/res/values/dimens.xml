@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="stroke">1dp</dimen>
+    <dimen name="stroke_x3">3dp</dimen>
+
+    <dimen name="spacing">10dp</dimen>
+    <dimen name="spacing_x2">20dp</dimen>
+    <dimen name="spacing_x3">30dp</dimen>
+    <dimen name="spacing_x4">40dp</dimen>
+
+    <dimen name="icon_size">72dp</dimen>
+    <dimen name="icon_size_small">36dp</dimen>
+    <dimen name="icon_size_normal">48dp</dimen>
+
+    <!--text size-->
+    <dimen name="text_smallest">10sp</dimen>
+    <dimen name="text_small">12sp</dimen>
+    <dimen name="text_medium">14sp</dimen>
+    <dimen name="text_big">16sp</dimen>
+    <dimen name="text_biggest">20sp</dimen>
+    <dimen name="text_gigantic">24sp</dimen>
+</resources>

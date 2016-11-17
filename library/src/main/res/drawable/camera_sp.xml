@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/circle_gray_trans"/>
+    <item
+        android:bottom="@dimen/spacing"
+        android:drawable="@drawable/svg_camera_white"
+        android:left="@dimen/spacing"
+        android:right="@dimen/spacing"
+        android:top="@dimen/spacing"/>
+
+</layer-list>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name" translatable="false">Media Library Sample</string>
+
+    <!--CAMERA FRAGMENT-->
+    <string name="Hold_on_for_take_video">Hold on for video, tap for photo</string>
+    <string name="error_storage_denied">Unable to write to storage. Access is denied</string>
+
+    <!--QUALITY DIALOG-->
+    <string name="Quality_dialog_title">Select video quality:</string>
+</resources>

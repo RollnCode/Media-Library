@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:ignore="ContentDescription,RtlHardcoded">
+
+    <TextureView
+        android:id="@+id/texture_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/icon_size"
+        android:layout_above="@+id/iv_take_photo"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/iv_take_photo"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/spacing_x3"
+        android:src="@drawable/sel_circle_white_gray"/>
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/iv_change_camera"
+        android:layout_width="@dimen/icon_size_normal"
+        android:layout_height="@dimen/icon_size_normal"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/spacing_x4"
+        android:layout_marginTop="@dimen/spacing_x4"
+        android:background="@android:color/transparent"
+        android:src="@drawable/sel_camera_white_gray"/>
+
+    <TextView
+        android:id="@+id/tv_take_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/spacing"
+        android:text="@string/Hold_on_for_take_video"
+        android:textColor="@android:color/white"
+        android:visibility="gone"/>
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/spacing"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_biggest"/>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"/>
+
+    <View
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_camera_fragment"
+        android:visibility="gone"/>
+</RelativeLayout>

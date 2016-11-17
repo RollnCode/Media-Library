@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Hold_on_for_take_video">Удерживайте для видео, нажмите для фото</string>
+    <string name="error_storage_denied">Запрещена запись в хранилище</string>
+    <string name="Quality_dialog_title">Выберите качество видео:</string>
+</resources>

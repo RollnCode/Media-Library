@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="landscape">true</bool>
+    <integer name="photoSizeFactor">6</integer>
+    <integer name="commentSizeFactor">2</integer>
+</resources>
