@@ -6,7 +6,7 @@ Simple library for Camera like in WhatsApp.
 
 ### Dependency
 
-Include the dependency [Download (.aar)](https://github.com/RollnCodeGit/Media-Library/blob/master/release/library-release.aar) and place it in your libs directory:
+Include the dependency [Download (.aar)](https://github.com/RollnCode/Media-Library/blob/master/release/library-release.aar) and place it in your libs directory:
 
 ```groovy
 allprojects {
